@@ -1,6 +1,7 @@
 const Engine = Matter.Engine;
 const World= Matter.World;
 const Bodies = Matter.Bodies;
+
 var canvas;
 var engine, world;
 var umbrella;
@@ -53,7 +54,7 @@ function draw(){
             lightning.addImage("lightning1", lImg1);
             break;
           case 3:
-                lightning.addImage("lightning2", lImg2);
+            lightning.addImage("lightning2", lImg2);
             break;  
           default:
             break;
